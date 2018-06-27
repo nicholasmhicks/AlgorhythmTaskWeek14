@@ -28,11 +28,11 @@ namespace AlgorhythmWeek14
 
             long biggestNumber = LinearSearch(insertionData);
             string linearWatchTime = LinearWatch.Elapsed.TotalSeconds.ToString();
-            Console.WriteLine($"Linear Time: {linearWatchTime}");
+            Console.WriteLine($"Linear Time: {linearWatchTime} seconds");
 
             FindIndexBinary(biggestNumber, insertionData, 0, 14999);
             string binaryWatchTime = BinaryWatch.Elapsed.TotalSeconds.ToString();
-            Console.WriteLine($"Binary Time:{binaryWatchTime}");
+            Console.WriteLine($"Binary Time:{binaryWatchTime} seconds");
             Console.ReadKey();
         }
 
