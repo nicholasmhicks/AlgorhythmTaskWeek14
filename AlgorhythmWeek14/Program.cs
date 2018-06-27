@@ -68,7 +68,6 @@ namespace AlgorhythmWeek14
             }
 
             int mid = ((indexMax + indexMin) / 2);
-            //since the array is sorted
 
             if (numberToFind < _data[mid])
             {
