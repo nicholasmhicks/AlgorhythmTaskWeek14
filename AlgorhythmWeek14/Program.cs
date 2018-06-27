@@ -24,7 +24,7 @@ namespace AlgorhythmWeek14
             }
 
             var insertionData = performInsertionSort(newData);
-            //var shellSortData = performShellSort(newData);
+            var shellSortData = performShellSort(newData);
 
             long biggestNumber = LinearSearch(insertionData);
             string linearWatchTime = LinearWatch.Elapsed.TotalSeconds.ToString();
